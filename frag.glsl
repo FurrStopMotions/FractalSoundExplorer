@@ -116,6 +116,7 @@ vec3 fractal(VEC2 z, VEC2 c) {
     case 5: DO_LOOP(duffing); break;
     case 6: DO_LOOP(ikeda); break;
     case 7: DO_LOOP(chirikov); break;
+    case 8: DO_LOOP(UDILIAN); break;
   }
 
   if (i != iIters) {
@@ -161,4 +162,5 @@ void main() {
 
 VEC2 UDILIAN (VEC2 z) {
   return VEC2(z*x + c(x*c * z) + c);
+  VEC3(z+x * c);
 }
