@@ -9,7 +9,7 @@ https://youtu.be/GiAj9WW1OfQ
 
 ![](https://img.itch.zone/aW1hZ2UvOTM1NzMzLzUzMTU0MzEucG5n/original/ay7ju0.png)
 
-beautiful
+b e a u t i f u l
 
 Notes
 ---------------
