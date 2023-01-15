@@ -1,17 +1,21 @@
 # Fractal Sound Explorer
-Explore fractals in an audio-visual sandbox
+Explore fractals and my first fractal in an audio-visual sandbox
 
-Download executable on my itch.io page:
+Download the REAL executable on CodeParade's itch.io page:
 https://codeparade.itch.io/fractal-sound-explorer
 
-YouTube video explanation:
+CodeParade's YouTube video explanation:
 https://youtu.be/GiAj9WW1OfQ
 
 ![](https://img.itch.zone/aW1hZ2UvOTM1NzMzLzUzMTU0MzEucG5n/original/ay7ju0.png)
 
+beautiful
+
 Notes
 ---------------
 The fractals are designed to run in real time on a GPU.  If the program is going too slow, you can simply shrink the size of the window to make it run faster.  The rendering is also designed to increase the image quality over time.  So keep still for a bit before taking screenshots to get higher quality.
+
+Don't zoom in too far; pixels will appear.
 
 Controls
 ---------------
@@ -34,3 +38,4 @@ Controls
 * 6 - Duffing Map
 * 7 - Ikeda Map
 * 8 - Chirikov Map
+* 9 - UDILIDAN Fractal
