@@ -84,6 +84,11 @@ VEC2 chirikov(VEC2 z, VEC2 c) {
   return z;
 }
 
+VEC2 UDILIAN (VEC2 z) { 
+  return VEC2(z*x + c(x*c * z) + c);
+  z.x += c.y*x.c;
+}
+
 #if 1
 #define DO_LOOP(name) \
   for (i = 0; i < iIters; ++i) { \
@@ -158,9 +163,4 @@ void main() {
     col *= 0.5;
   }
   gl_FragColor = vec4(clamp(col, 0.0, 1.0), 1.0 / (iTime + 1.0));
-}
-
-VEC2 UDILIAN (VEC2 z) {
-  return VEC2(z*x + c(x*c * z) + c);
-  VEC3(z+x * c);
 }
