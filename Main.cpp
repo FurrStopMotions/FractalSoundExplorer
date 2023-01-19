@@ -114,8 +114,7 @@ void chirikov(double& x, double& y, double cx, double cy) {
 }
 
 void udilidan(double& x, double& y, double cx, double cy) {
-   cy += cx*cy;
-   x += cy*ny;
+   z.x += c.y*x.c;
 }
 
 //List of fractal equations
