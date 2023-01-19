@@ -113,6 +113,11 @@ void chirikov(double& x, double& y, double cx, double cy) {
   x += cx*y;
 }
 
+void udilidan(double& x, double& y, double cx, double cy) {
+   cy += cx*cy;
+   x += cy*ny;
+}
+
 //List of fractal equations
 static const Fractal all_fractals[] = {
   mandelbrot,
@@ -123,6 +128,7 @@ static const Fractal all_fractals[] = {
   duffing,
   ikeda,
   chirikov,
+  udilidan,
 };
 
 //Synthesizer class to inherit Windows Audio.
@@ -574,7 +580,7 @@ int main(int argc, char *argv[]) {
         "  2 - Burning Ship\n"
         "  3 - Feather Fractal\n"
         "  4 - SFX Fractal\n"
-        "  5 - Hénon Map\n"
+        "  5 - HÃ©non Map\n"
         "  6 - Duffing Map\n"
         "  7 - Ikeda Map\n"
         "  8 - Chirikov Map\n"
